@@ -142,7 +142,7 @@ section #about .row {
     visibility: hidden;
 }
 .navbar .sub-menu:before {
-visibility: hidden;
+visibility: visible;
 
 }
 .navbar .sub-menu:after {
