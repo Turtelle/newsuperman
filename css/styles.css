@@ -141,6 +141,20 @@ section #about .row {
 .dropdown:hover .dropdown-menu {
     visibility: hidden;
 }
+.navbar .sub-menu:before {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.navbar .sub-menu:after {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
 
 
 	
