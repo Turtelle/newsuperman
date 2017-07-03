@@ -135,7 +135,7 @@ section #about .row {
 }
 
 .dropdown-menu li:hover .sub-menu {
- 
+ visibility: hidden;
 }
 
 .dropdown:hover .dropdown-menu {
