@@ -99,6 +99,7 @@
 
 <!-- Team Section -->
 <section id="groups">
+<div class="row">
 <div class="col-md-8 col-md-offset-2" style="height: 600px">
  
  <!--This is where the map is placed-->
@@ -110,7 +111,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
     center: [ 18.423300,-33.918861],
-    zoom: 11.15
+    zoom: 8.00
 });
 
 map.on('load', function () {
@@ -125,12 +126,12 @@ map.on('load', function () {
                 "features": [{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Make it Mount Pleasant</strong><p><a href=\"http://www.mtpleasantdc.com/makeitmtpleasant\" target=\"_blank\" title=\"Opens in a new window\">Make it Mount Pleasant</a> is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
+                        "description": "<strong>Superman Durbanville</strong><p><a href=\"http://www.newsuperman.org\" target=\"_blank\" title=\"Opens in a new window\">Superman Durbanville</a> Join us every Thursday at 19:00-21:00 </p>",
                         "icon": "theatre"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-77.038659, 38.931567]
+                        "coordinates": [18.65033847391, -33.828881239]
                     }
                 }, {
                     "type": "Feature",
@@ -242,6 +243,8 @@ map.on('load', function () {
 });
 </script>
 </div>
+	</div>
+
  
  
  
@@ -249,7 +252,7 @@ map.on('load', function () {
  
   
 </section>
-<section>
+
   <div class="container" id="contact">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -267,7 +270,7 @@ map.on('load', function () {
     </div>
   </div>
   </div>
-</section>
+
 
 <!-- jQuery --> 
 <script src="vendor/jquery/jquery.min.js"></script> 
