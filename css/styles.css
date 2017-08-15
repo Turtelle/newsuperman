@@ -202,6 +202,7 @@ header {
 	min-height: 55%;
 	background-size: cover;
 	background-position: center;
-	color: #fff
+	color: #fff;
+	background-image: url(../img/header2.jpeg);
 }
 }
