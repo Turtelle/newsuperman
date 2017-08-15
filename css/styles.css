@@ -151,13 +151,22 @@ section #about .row {
 
 
 
+
 @media (min-width:767px) {
 .sidebar-nav {
     padding: 9px 0;
 }
+
 #page-top section .content {
 	margin-top: 34px;
 }
+#page-top #groups .mapnav {
+	margin: 0;
+	position: static;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
 
 .dropdown-menu .sub-menu {
     left: 100%;
