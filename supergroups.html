@@ -84,7 +84,7 @@
   </div>
   <!-- /.container-fluid --> 
 </nav>
-<section class="bg-primary">
+<section class="bg-primary" style="width: 100%">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -100,7 +100,7 @@
 <!-- Team Section -->
 <section id="groups">
 <div class="row">
-<div class="col-md-8 col-md-offset-2" style="height: 600px">
+<div class="col-md-6 col-md-offset-3" style="height: 600px">
  
  <!--This is where the map is placed-->
 <div id="map"></div>
@@ -116,6 +116,8 @@ var map = new mapboxgl.Map({
 
 map.on('load', function () {
     // Add a layer showing the places.
+map.loadImage('img/religious-christian-15_result.png', function(error, image) {
+        map.addImage('church', image);
     map.addLayer({
         "id": "places",
         "type": "symbol",
@@ -127,7 +129,7 @@ map.on('load', function () {
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Superman Durbanville</strong><p><a href=\"http://www.newsuperman.org\" target=\"_blank\" title=\"Opens in a new window\">Superman Durbanville</a> Join us every Thursday at 19:00-21:00 </p>",
-                        "icon": "theatre"
+                        "icon": "church"
                     },
                     "geometry": {
                         "type": "Point",
@@ -136,12 +138,12 @@ map.on('load', function () {
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Mad Men Season Five Finale Watch Party</strong><p>Head to Lounge 201 (201 Massachusetts Avenue NE) Sunday for a <a href=\"http://madmens5finale.eventbrite.com/\" target=\"_blank\" title=\"Opens in a new window\">Mad Men Season Five Finale Watch Party</a>, complete with 60s costume contest, Mad Men trivia, and retro food and drink. 8:00-11:00 p.m. $10 general admission, $20 admission and two hour open bar.</p>",
-                        "icon": "theatre"
+                        "description": "<strong>Superman Worcester</strong><p><a href=\"http://www.newsuperman.org\" target=\"_blank\" title=\"Opens in a new window\">Superman Worcester</a> Join us every Thursday at 19:00-21:00</p>",
+                        "icon": "church"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-77.003168, 38.894651]
+                        "coordinates": [19.445552150166293, -33.64654712463724]
                     }
                 }, {
                     "type": "Feature",
@@ -217,7 +219,8 @@ map.on('load', function () {
             }
         },
         "layout": {
-            "icon-image": "{icon}-15",
+            "icon-image": "church",
+			"icon-size": 1,
             "icon-allow-overlap": true
         }
     });
@@ -241,6 +244,7 @@ map.on('load', function () {
         map.getCanvas().style.cursor = '';
     });
 });
+	});
 </script>
 </div>
 	</div>
