@@ -152,6 +152,7 @@ section #about .row {
 
 
 
+
 @media (min-width:767px) {
 .sidebar-nav {
     padding: 9px 0;
@@ -214,4 +215,7 @@ header {
 	color: #fff;
 	background-image: url(../img/header2.jpeg);
 }
+}
+#map {
+  height: 500px;
 }
