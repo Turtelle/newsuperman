@@ -120,10 +120,11 @@ section #about .row {
 	text-align: center;
 	border: medium solid rgba(209,58,76,1.00);
 	color: rgba(0,0,0,1.00);
+	margin: 0;
 	font-weight: bold;
 }
 .row #ad div {
-	padding-top: 17px;
+	padding-top: 0px;
 }
 .container .row #sms {
 	text-align: center;
@@ -148,6 +149,10 @@ section #about .row {
 	padding-left: 0;
 	padding-bottom: 0;
 }
+.row .col-md-12 .col-md-4.text-center {
+	margin-top: 26px;
+}
+
 
 
 
