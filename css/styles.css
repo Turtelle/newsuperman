@@ -152,6 +152,11 @@ section #about .row {
 .row .col-md-12 .col-md-4.text-center {
 	margin-top: 26px;
 }
+#team .container .row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 
 
 
