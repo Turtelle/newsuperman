@@ -120,7 +120,8 @@ section #about .row {
 	text-align: center;
 	border: medium solid rgba(209,58,76,1.00);
 	color: rgba(0,0,0,1.00);
-	margin: 0;
+	margin-right: 15%;
+	margin-left: 15%;
 	font-weight: bold;
 }
 .row #ad div {
@@ -132,6 +133,8 @@ section #about .row {
 	color: rgba(0,0,0,1.00);
 	font-weight: bold;
 	margin-top: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 .row #sms div {
 	padding-top: 17px;
@@ -225,7 +228,27 @@ header {
 	color: #fff;
 	background-image: url(../img/header2.jpeg);
 }
+
+.container .row #ad {
+	text-align: center;
+	border: medium solid rgba(209,58,76,1.00);
+	color: rgba(0,0,0,1.00);
+	margin-right: 0%;
+	margin-left: 0%;
+	font-weight: bold;
+}
+.container .row #sms {
+	text-align: center;
+	border: medium solid rgba(209,58,76,1.00);
+	color: rgba(0,0,0,1.00);
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
 }
 #map {
   height: 500px;
 }
+
