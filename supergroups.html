@@ -110,7 +110,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidHVydGVsbGUiLCJhIjoiY2o2OTZwanhiMGx5bjJ3bHM2c
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
-    center: [ 25.082962854202037,-28.293884458282697],
+    center: [ 24.082962854202037,-28.693884458282697],
     zoom: 4.40
 });
 	
@@ -256,6 +256,16 @@ map.loadImage('img/redPin.png', function(error, image) {
                     "geometry": {
                         "type": "Point",
                         "coordinates": [17.093638901573343, -22.608046759077354]
+                    }
+                },{
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Superman Springbok</strong><p>Join us every Thursday at 19:15-21:00</p>",
+                        "icon": "church"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [17.882350893714943, -29.666017047101114]
                     }
                 },]
             }
