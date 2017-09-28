@@ -235,8 +235,8 @@ section #about .row {
 }
 @media (max-width:768px) {
 header {
-	max-height: 55%;
-	background-size: cover;
+	max-height: 40%;
+	background-size:cover;
 	background-position: center;
 	color: #fff;
 	background-image: url(../img/header2.jpeg);
