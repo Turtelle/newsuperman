@@ -166,6 +166,8 @@ section #about .row {
 
 
 
+
+
 @media (min-width:767px) {
 .sidebar-nav {
     padding: 9px 0;
@@ -197,6 +199,17 @@ section #about .row {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: rgba(209,58,76,1.00);
+	text-decoration: none;
+	background-color: rgba(166,168,171,0.20)
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+	color: #D13A4C;
+	text-decoration: none;
+	background-color: rgba(166,168,171,0.20);
+	outline: 0;
+	}
 
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
@@ -222,7 +235,7 @@ section #about .row {
 }
 @media (max-width:768px) {
 header {
-	min-height: 55%;
+	min-height: 128%;
 	background-size: cover;
 	background-position: center;
 	color: #fff;
@@ -251,4 +264,12 @@ header {
 #map {
   height: 500px;
 }
+@media (min-width:768px) {
+	.bg-primary {
+	max-height: 15%;
+	}
+	.bg-primary .container .row {
+	margin-top: -3%;
 
+}
+}
