@@ -235,7 +235,7 @@ section #about .row {
 }
 @media (max-width:768px) {
 header {
-	min-height: 128%;
+	max-height: 55%;
 	background-size: cover;
 	background-position: center;
 	color: #fff;
@@ -269,7 +269,7 @@ header {
 	max-height: 15%;
 	}
 	.bg-primary .container .row {
-	margin-top: -3%;
+	margin-top: -4%;
 
 }
 }
