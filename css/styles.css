@@ -235,7 +235,7 @@ section #about .row {
 }
 @media (max-width:768px) {
 header {
-	max-height: 40%;
+	max-height: 35%;
 	background-size:cover;
 	background-position: center;
 	color: #fff;
